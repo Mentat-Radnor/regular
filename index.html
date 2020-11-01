@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regular</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form action="get">
+        <div class="input__wrap">
+            <div class="error">Такого имени быть не может</div>
+            <input class="input" data-type="name" type="text" name="Name">
+        </div>
+        <div>
+            <div class="error">Такого Email не существует. Корректный вид sdas@mail.com</div>
+            <input class="input" data-type="email" type="email" name="Email">
+        </div>
+        <div>
+            <div class="error">Номер телефона должен быть введен в формате +79453459532</div>
+            <input class="input" data-type="tel" type="tel" name="tel">
+        </div>
+        <input class="btn" type="submit">
+    </form>
+    <script src="script.js"></script>
+</body>
+
+
+</html>

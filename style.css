@@ -1,0 +1,10 @@
+.error {
+    color: red;
+    font-size: 18px;
+    font-weight: 700;
+    display: none;
+}
+
+.error__vis {
+    display: block;
+}
